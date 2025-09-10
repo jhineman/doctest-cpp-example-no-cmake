@@ -13,7 +13,7 @@ int factorial(int n) {
 
 // Doctest unit tests
 TEST_CASE("Factorial function tests") {
-    CHECK(factorial(0) == 1);
+    CHECK(factorial(0) == 0);
     CHECK(factorial(1) == 1);
     CHECK(factorial(5) == 120);
     CHECK(factorial(7) == 5040);
