@@ -1,9 +1,13 @@
 # doctest-cpp-example-no-cmake
-Bare bones example of using doctest without cmake
+Bare bones example of using [doctest](https://github.com/doctest/doctest) without cmake.
 
 ## How to compile
 
-Make sure you have `doctest.h` available in the same directory or in your compiler's include path.
+Make sure you have `doctest.h` available in the same directory or in your compiler's include path. If you use
+```sh
+git clone --recurse-submodules https://github.com/jhineman/doctest-cpp-example-no-cmake.git
+```
+to clone this repository, the following compilation strategy will work straight away.
 
 To compile `factorial.cpp` using g++:
 
@@ -16,5 +20,5 @@ To compile `factorial.cpp` using g++:
 Then run the tests:
 
 ```sh
-./factorial
+./factorial.out
 ```
